@@ -7,7 +7,7 @@ Authenticate your Application using IBM APP-ID
 
 ### Step 1 : Sign-up for IBM Cloud Platform
 
-IBM Cloud Signup-link: [https://cloud.ibm.com/login](https://cloud.ibm.com/login)
+IBM Cloud Signup-link: [https://cloud.ibm.com](https://cloud.ibm.com)
 
 ![GitHub Logo](public/images/7.png)
 
