@@ -73,4 +73,5 @@ After App ID finishes the OAuth2 process, it redirects to the provided URL.
 
 5. After successfully signing in, you will be redirected back to the sample app we created with the user information.
 
+![GitHub Logo](public/images/final.png)
 
