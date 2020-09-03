@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>IBM App ID</title>
+</head>
+
+<body>
+
+    <h1>Welcome to IBM Cloud App-ID !</h1>
+
+    <a href="/appid/login" id="login">Login</a>
+
+    <a href="/appid/logout" id="logout" style="display: none;">Logout</a>
+
+    <h3 id="user"></h3>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $().ready(() => {
+            $.get("/api/user")
+                .then((resp) => {
+                    $("#user").text("Hello " + resp.user.name);
+                    $("#logout").show();
+                    $("#login").hide();
+                });
+        });
+    </script>
+</body>
+
+</html>
